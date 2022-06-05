@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"> 
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <title>Html Starter</title>
+  </head>
+  <body>
+
+    <header class="header-main">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid alignment">
+          <a class="navbar-brand" href="#"><img src="images/logo.png"></a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="hero-main">
+      <section class="section hero-sec">
+        <div class="container-fluid alignment">
+          <div class="row align-items-center">
+            <div class="col-xl-6 col-md-12">
+              <h1>Welcome to the<br> presale of <span class="red-clr">xHEALTH</span></h1>
+              <p>Mint Clinics<span class="red-clr">.</span> Build Hospitals<span class="red-clr">.</span><br>Earn <span class="red-clr">xHEALTH</span></p>
+              <div class="hero-btns d-flex align-items-center">
+                <a href="#" class="m-btn btn--primary">WHITEPAPER</a>
+                <a href="#" class="m-btn btn--primary" data-bs-toggle="modal" data-bs-target="#xHEALTHModal">Get $xHEALTH</a>
+              </div>
+            </div>
+            <div class="col-xl-6 col-md-12">
+              <div class="hero-img">
+                <img src="images/hero-img.png" alt="hero-img" class="img-fluid">
+              </div>
+            </div>
+            <div class="col-md-12">
+              <div class="dec-img">
+                <img src="./images/plus.png" class="plus1" alt="dec-img">
+                <img src="./images/plus.png" class="plus2" alt="dec-img">
+                <img src="./images/plus.png" class="plus3" alt="dec-img">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="section footer-sec">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="footer-social-main">
+              <ul class="footer-links">
+                <li class="footer-link">
+                  <a href="#"><img src="images/tw-ic.svg"></a>
+                </li>
+                <li class="footer-link">
+                  <a href="#"><img src="images/discord-ic.svg"></a>
+                </li>
+                <li class="footer-link">
+                  <a href="#"><img src="images/bi-ic.svg"></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Modal -->
+    <div class="modal fade modal-xHEALTH" id="xHEALTHModal" tabindex="-1" aria-labelledby="xHEALTHModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="xHEALTHModalLabel">BUY xHEALTH with USDC</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="modal-input-txt">
+              <h6 class="light-font">From (estimated)</h6>
+              <h6 class="dark-font">Balance: 0</h6>
+            </div>
+            <div class="modal-input-from-main">
+              <div class="modal-input-left-txt">
+                0.000   
+              </div>
+              <div class="modal-input-right-txt">
+                <img src="images/from-input-ic.png" class="img-fluid" alt="">
+                USDC
+              </div>
+            </div>
+            <div class="modal-input-txt">
+              <h6 class="light-font">To</h6>
+              <h6 class="dark-font">Balance: 0</h6>
+            </div>
+            <div class="modal-input-from-main modal-input-to-main">
+              <div class="modal-input-left-txt">
+                0.000   
+              </div>
+              <div class="modal-input-right-txt">
+                <img src="images/to-input-ic.png" class="img-fluid" alt="">
+                xHEALTH
+              </div>
+            </div>
+            <div class="modal-bottom-input-txt">
+              <h6 class="dark-font">Price</h6>
+              <h6 class="dark-font">10 USDC per xHEALTH</h6>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-modal-footer" data-bs-dismiss="modal">BUY</button>
+              <div class="modal-footer-outside">
+                <button type="button" class="btn btn-modal-footer-outside" data-bs-dismiss="modal">Add xHEALTH to MetaMask</button>
+              </div>
+          </div>
+        </div>        
+      </div>
+    </div>
+
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Custom JS -->
+
+  </body>
+</html>
